@@ -42,7 +42,6 @@ add dx , 30h
 int 21h 
 loop top 
 
-
 mov ah , 4ch 
 int 21h 
 
