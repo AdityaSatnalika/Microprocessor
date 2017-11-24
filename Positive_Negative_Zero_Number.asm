@@ -7,10 +7,7 @@ len db 07h
                 MSG1 DB  0DH,0AH, ' LESSER  $'   
                 MSG2 DB  0DH,0AH, ' ZERO  $'
 
-
 .code   
- 
-
 
 mov ax,@data
 mov ds,ax 
