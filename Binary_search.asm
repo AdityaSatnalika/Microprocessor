@@ -17,6 +17,7 @@ l1:
 cmp ch,cl
 jl notfound
 
+
 mov ax,0000h
 add al,ch
 add al,cl
