@@ -11,11 +11,13 @@ mov bl, b
 mov ah, 0       
 mov dl, 04h  
 
+
 ad:
 add ax, ax                  
 rcl bl, 01  
 jnc skip  
 add ax, bx   
+
 
 skip:
 dec dl      
