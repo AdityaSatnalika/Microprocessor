@@ -51,7 +51,6 @@ t1   db     "aditya$";
         int     21h;
 
         jmp     exit_here
-
 not_equal:
 
 ; "no" - not equal!
