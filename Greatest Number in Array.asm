@@ -31,8 +31,7 @@ next: inc si;
 loop again   
 
 mov bl,al; 
-mov bh,0h;
-        
+mov bh,0h;        
                      
           lea Dx,msg
          
@@ -47,12 +46,8 @@ mov bh,0h;
         mov  ah, 02h
         int  21h
         mov  dl, dh
-        int  21h
-          
-        
-
-
-hlt;
+        int  21h    
+    hlt;
 
 
 
